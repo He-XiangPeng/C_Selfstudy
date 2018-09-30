@@ -1,5 +1,5 @@
 #include <stdio.h>
-/** 
+/**
  *
  *	while的用法
  * 
