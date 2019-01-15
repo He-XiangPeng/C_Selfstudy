@@ -1,5 +1,11 @@
-#include <stdio.h>
+/**
+ * 输入输出
+ * scanf()
+ * printf()
+ * 
+ */
 
+#include <stdio.h>
 int main(void) 
 {
 	int i, j;
