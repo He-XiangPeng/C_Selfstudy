@@ -1,11 +1,9 @@
-#include <stdio.h>
-
 /** 
  *	确定一个维数组需要几个参数
  *
- *
- * 
  */
+#include <stdio.h>
+
 void f(int * pArr, int len); // int *pArr知道数组的开始，int len表示数组的长度
 
 int main(void)

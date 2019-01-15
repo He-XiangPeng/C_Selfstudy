@@ -1,8 +1,9 @@
-#include <stdio.h>
 /**
  *	二位数组的操作和使用
  * 
  */
+
+#include <stdio.h>
 int main(void)
 {
 	int a[3][4] = {

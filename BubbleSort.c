@@ -1,11 +1,9 @@
-#include <stdio.h>
-
 /** 
  *	冒泡排序
  *
  *
- * 
  */
+#include <stdio.h>
 
 void bubbleSort(int * p, int len);
 

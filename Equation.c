@@ -1,12 +1,11 @@
+/**
+ * 求一元二次方程组ax^2+bx+c=0的解,
+ * a不等于0，a,b,c为实数
+ */
 #include <stdio.h> 
 #include <math.h> 
-/* 
-求一元二次方程组ax2+bx+c=0的解,a不等于0，a,b,c为实数
-*/
 int main(void) 
-{
-	
-
+{	
 	double a;
 	double b;
 	double c;  //把三个系数保存在计算机中
@@ -29,7 +28,7 @@ int main(void)
 		if (delta > 0)
 		{
 			x1 = ((-b) + sqrt(delta)) / (2*a);
-			x1 = ((-b) - sqrt(delta)) / (2*a);
+			x2 = ((-b) - sqrt(delta)) / (2*a);
 			printf("有两个不同解：x1 = %lf, x2 = %lf\n", x1, x2);
 		}
 		else if (delta == 0)
@@ -46,9 +45,7 @@ int main(void)
 		printf("是否继续(是输入y/Y,否按任意键): \n");
 		scanf(" %c", &ch); // %c前面必须加一个空格，否则程序只执行一遍
 		
-
 	} while ('y' == ch || 'Y' == ch);
-	
 	
 	return 0;
 }

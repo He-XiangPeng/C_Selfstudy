@@ -1,10 +1,10 @@
-#include <stdio.h>
-
 /** 
- *		c传统数组的缺陷	
+ *	c传统数组的缺陷	
  *
  * 
  */
+#include <stdio.h>
+
 void g(int * pArr, int len);
 void f(void);
 

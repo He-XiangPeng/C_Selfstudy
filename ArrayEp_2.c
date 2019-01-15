@@ -1,11 +1,10 @@
-#include <stdio.h>
-
 /**
  *	2015年01月14日20:46:51
  *	要明白pArr[3] 和 a[3]是同一个变量
  *
  * 
  */
+#include <stdio.h>
 
 void f(int * pArr, int len);
 int main(void)

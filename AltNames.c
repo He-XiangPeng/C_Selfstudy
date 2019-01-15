@@ -1,10 +1,10 @@
-#include <stdio.h>
-#include <inttypes.h> // 支持可移植类型
 /** 
  *	可移植的整数类型名
  * 	C prime plus 例子
  * 	测试sizeof
  */
+#include <stdio.h>
+#include <inttypes.h> // 支持可移植类型
 int main(void)
 {
 	int16_t me16 = 4593;
