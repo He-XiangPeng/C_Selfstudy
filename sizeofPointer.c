@@ -1,10 +1,10 @@
-#include <stdio.h>
-
 /** 
  *	指针数据类型的大小
  *
  * 
  */
+#include <stdio.h>
+
 int main(int argc, char const *argv[])
 {
 	char ch = 'A';

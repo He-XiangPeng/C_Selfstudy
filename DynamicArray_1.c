@@ -1,12 +1,11 @@
-#include <stdio.h>
-#include <stdlib.h>
-
 /** 
  *
  *	malloc的用法
  *
  * 
  */
+#include <stdio.h>
+#include <stdlib.h>
 
 void f(int * q);
 

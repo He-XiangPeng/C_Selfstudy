@@ -1,4 +1,3 @@
-#include <stdio.h>
 /** 
  * 如果有表达式 a = i++  它等价于 a = i ; i = i + 1;
    如果有表达式 a = ++i  它等价于 i = i + 1; a = i;
@@ -7,6 +6,8 @@
    循环中无区别
    	求1+2+3+...+100的值
  */
+#include <stdio.h>
+
 int main(void)
 {
 	int sum = 0;

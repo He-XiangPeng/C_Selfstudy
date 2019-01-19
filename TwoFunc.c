@@ -1,9 +1,9 @@
-#include <stdio.h>
 /**
  *	函数的用法
  *
  * 
  */
+#include <stdio.h>
 
 void butler(void); // ISO/ANSI C函数原型,不提供编译出错
 				   // 函数声明， 分号不能丢掉

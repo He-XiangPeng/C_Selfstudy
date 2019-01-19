@@ -1,9 +1,9 @@
-#include <stdio.h>
 /** 
  *	全局变量与局部变量
  *
  * 
  */
+#include <stdio.h>
 
 int k = 1000; // 全局变量k
 

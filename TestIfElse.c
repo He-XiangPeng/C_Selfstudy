@@ -1,7 +1,8 @@
-#include <stdio.h>
 /** 
  * if...else用法
  */
+#include <stdio.h>
+
 int main(void)
 {
 	int i, j;

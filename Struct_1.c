@@ -1,11 +1,10 @@
-#include <stdio.h>
-
 /** 
  *	简单的结构体
  *
  *
  * 
  */
+#include <stdio.h>
 
 // 结构体最常用
 struct Student

@@ -1,8 +1,9 @@
-#include <stdio.h>
 /** 
  *	switch的用法
  * 
  */
+#include <stdio.h>
+
 int main(void)
 {
 	int val = 6;

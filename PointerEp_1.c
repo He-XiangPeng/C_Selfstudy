@@ -1,10 +1,9 @@
-#include <stdio.h>
-
 /** 
  *	指针使函数返回多个值
  *
  * 
  */
+#include <stdio.h>
 
 void Mult(int * p, int * q);
 int main(void)

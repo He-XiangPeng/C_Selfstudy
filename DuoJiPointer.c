@@ -1,10 +1,9 @@
-#include <stdio.h>
-
 /** 
  *	多级指针
  *
  * 
  */
+#include <stdio.h>
 int main(void)
 {
 	int i = 10;	// int 类型

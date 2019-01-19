@@ -1,9 +1,10 @@
-#include <stdio.h>
 /** 
  *	三目运算符
  * 	逻辑关系
  *  逗号运算符
  */
+#include <stdio.h>
+
 int main(void)
 {
 	int i = 10;

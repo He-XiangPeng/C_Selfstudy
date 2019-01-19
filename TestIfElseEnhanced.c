@@ -1,8 +1,8 @@
-#include <stdio.h>
 /** 
  * if...else if...else if...else的用法
  * 即使else if条件成立也不会执行
  */
+#include <stdio.h>
 
 int main(void)
 {

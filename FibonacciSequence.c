@@ -1,10 +1,11 @@
-#include <stdio.h>
 /** 
  *	斐波那契数列的下一个数
  *	0,1,1,2,3,5,8,13,21,34
  * 	F0=0，F1=1，Fn=F(n-1)+F(n-2)（n>=2，n∈N*）
  * 	
  */
+
+#include <stdio.h>
 int main(void)
 {
 	int n; // n表示第n项，n>=2

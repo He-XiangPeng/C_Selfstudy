@@ -1,9 +1,10 @@
-#include <stdio.h>
 /** 
  * 循环与if的嵌套使用
  * 求1~100之间能被3整除数的和及个数
  * 
  */
+#include <stdio.h>
+
 int main(void)
 {
 	int sum = 0;

@@ -1,12 +1,11 @@
-#include <stdio.h>
-#include <stdlib.h>
-
 /** 
  *	学生管理系统加强版
  * 	通过指针达到修改结构体元素的目的
  *
  * 
  */
+#include <stdio.h>
+#include <stdlib.h>
 
 struct Student
 {

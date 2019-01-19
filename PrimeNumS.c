@@ -1,8 +1,8 @@
-#include <stdio.h>
 /** 
  *	2到100之间的素数
  *	2015-01-12 20:54:34
  */
+#include <stdio.h>
 
 /**
  * [isPrime 判断m是否是素数]

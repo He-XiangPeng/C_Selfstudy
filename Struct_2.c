@@ -1,11 +1,11 @@
-#include <stdio.h>
-#include <string.h>
 /** 
  *	2015年01月17日15:21:42
  *	通过函数对结构体输入输出
  *
  * 
  */
+#include <stdio.h>
+#include <string.h>
 
 // void inputStudent(struct Student stu);
 void inputStudent(struct Student * pstu);

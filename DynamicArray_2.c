@@ -1,11 +1,12 @@
-#include <stdio.h>
-#include <stdlib.h>
 /** 
  *	动态一维数组的构造
  *
  *
  * 
  */
+#include <stdio.h>
+#include <stdlib.h>
+
 int main(void)
 {
 	int a[5];

@@ -1,9 +1,8 @@
-#include <stdio.h>
-
 /** 
  *	两个数互换值，用指针实现
  * 
  */
+#include <stdio.h>
 
 void exchange_1(int a, int b);
 void exchange_2(int * p, int * q);

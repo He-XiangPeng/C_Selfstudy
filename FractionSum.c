@@ -1,9 +1,9 @@
-#include <stdio.h>
 /** 
  *	求1+1/2+1/3+...+1/100的和
  * 	需用强制转换符
  * 
  */
+#include <stdio.h>
 int main(void)
 {
 	float sum = 0;

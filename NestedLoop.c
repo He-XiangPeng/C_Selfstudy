@@ -1,10 +1,11 @@
-#include <stdio.h>
 /** 
  *	嵌套的for循环
  * 	
  *
  * 
  */
+#include <stdio.h>
+
 int main(void)
 {
 	for (int i = 0; i < 3; ++i)

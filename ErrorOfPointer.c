@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 /** 
  *	指针常见错误
  * 	内存使用后需释放
@@ -7,6 +5,7 @@
  * 
  * 
  */
+#include <stdio.h>
 int main(void)
 {
 	int i = 5;

@@ -10,7 +10,7 @@ int main(void)
 {
 	int i, j;
 	printf("Please input i&j's value！\n");
-	scanf("m%d,%d", &i, &j); // &i表示i的地址 &是一个取地址符 m123
+	scanf("m%d,%d", &i, &j); // &i表示i的地址 &是一个取地址符 m123正确输入 123错误
 	printf("i = %d, j = %d\n", i, j);
     
 	int m, n;
@@ -25,12 +25,10 @@ int main(void)
 
     scanf("%d", &n);
     printf("n = %d\n", n);
-
-
     return 0;
 }
 /*
 	output
-	m123 34
+	输入m123 34
 	i = 123, j = 34
 */

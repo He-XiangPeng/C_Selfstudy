@@ -1,8 +1,9 @@
-#include <stdio.h>
 /** 
  *	求1+3+5+7+...+100的值
  * 
  */
+#include <stdio.h>
+
 int main(void)
 {
 	int sum = 0;

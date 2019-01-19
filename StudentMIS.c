@@ -1,12 +1,11 @@
-#include <stdio.h>
-#include <stdlib.h>
-
 /** 
  *	学生管理系统
  *
  *
  * 
  */
+#include <stdio.h>
+#include <stdlib.h>
 
 struct Student
 {

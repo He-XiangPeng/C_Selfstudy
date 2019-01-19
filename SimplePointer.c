@@ -1,10 +1,9 @@
-#include <stdio.h>
-
 /** 
  *	指针的简单实用
  *
  * 
  */
+#include <stdio.h>
 int main(void)
 {
 	int * p; // p是变量的名字，int * 是指针数据类型

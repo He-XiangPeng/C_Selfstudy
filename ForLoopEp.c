@@ -1,4 +1,3 @@
-#include <stdio.h>
 /** 
  *	求1到100整数之间的奇数之和，偶数之和
  *	以及奇数个数，偶数个数，奇数平均值，偶数平均值
@@ -6,6 +5,7 @@
  *  even number 偶数
  * 
  */
+#include <stdio.h>
 int main()
 {
 	int oddSum, evenSum;

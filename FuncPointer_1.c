@@ -1,11 +1,11 @@
-#include <stdio.h>
-#include <stdlib.h>
-
 /** 
  *	动态分配内存的用法
  *
  * 
  */
+#include <stdio.h>
+#include <stdlib.h>
+
 void func(int ** q)
 {
 	*q = (int *)malloc(sizeof(int)); // 等价于p = (int *)malloc(sizeof(int));

@@ -1,8 +1,9 @@
-#include <stdio.h>
 /** 
  *	一维数组的简单使用
  *  2015年01月12日12:59:36
  */
+#include <stdio.h>
+
 int main(void)
 {
 	int a[5] = {1, 2, 3, 4, 5};// a[5]从a[0]开始

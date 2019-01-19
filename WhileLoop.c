@@ -1,9 +1,10 @@
-#include <stdio.h>
 /**
  *
  *	while的用法
  * 
  */
+#include <stdio.h>
+
 int main(void)
 {
 	int sum1 = 0;

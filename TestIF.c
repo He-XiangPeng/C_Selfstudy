@@ -1,7 +1,8 @@
-#include <stdio.h>
 /** 
  * if的用法
  */
+#include <stdio.h>
+
 int main(void)
 {
 	if (3 > 2) // if(3), if(0), if(0 == 0)

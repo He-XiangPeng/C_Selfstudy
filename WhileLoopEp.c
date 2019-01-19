@@ -1,10 +1,11 @@
-#include <stdio.h>
 /** 
  *
  *	回文数判断，121，12321，
  *
  * 
  */
+#include <stdio.h>
+
 int main(void)
 {
 	int val = 121; // 存放要判断的数
