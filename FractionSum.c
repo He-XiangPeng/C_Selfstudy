@@ -7,7 +7,7 @@
 int main(void)
 {
 	float sum = 0;
-	for (int i = 1; i < 100; ++i)
+	for (int i = 1; i <= 100; ++i)
 	{
 		sum += 1/ (float) (i); // sum += 1.0/i;	
 	}

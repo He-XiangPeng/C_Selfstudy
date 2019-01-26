@@ -1,4 +1,8 @@
 /**
+*   冒泡排序分析a, b, c, d, e
+*   将a与后面的每一个数进行比较后，交换顺序
+*
+* 
 *	int i = 3;
 *	int j = 5;
 *	int t;
@@ -22,12 +26,14 @@ int main(void)
 		a = b; 
 		b = t;
 	}
+
 	if (a < c)
 	{
 		t = a;
 		a = c;
 		c = t;
 	}
+
 	if (b < c)
 	{
 		t = b;

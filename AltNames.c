@@ -5,6 +5,7 @@
  */
 #include <stdio.h>
 #include <inttypes.h> // 支持可移植类型
+#include <stdbool.h>
 int main(void)
 {
 	int16_t me16 = 4593;

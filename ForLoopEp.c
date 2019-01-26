@@ -6,7 +6,7 @@
  * 
  */
 #include <stdio.h>
-int main()
+int main(void)
 {
 	int oddSum, evenSum;
 	oddSum   = evenSum   = 0; // int i = j = 0;是错误的
@@ -16,7 +16,7 @@ int main()
 
 	for (int i = 1; i <= 100; ++i)
 	{
-		if (i % 2 != 0) // or (i % == 1)
+		if (i % 2 != 0) // or (i % 2 == 1)
 		{
 			oddSum += i;
 			oddCount++;

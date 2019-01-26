@@ -3,6 +3,7 @@
  *	2015-01-12 20:54:34
  */
 #include <stdio.h>
+#include <stdbool.h>
 
 /**
  * [isPrime 判断m是否是素数]
