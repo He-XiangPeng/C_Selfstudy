@@ -9,10 +9,9 @@
 int main(void)
 {
 	for (int i = 0; i < 3; ++i)
-		for(int j = 2; j < 5; ++j)
+		for (int j = 2; j < 5; ++j)
 			printf("HAHA ");
 		printf("XIXI\n");
-	
 	return 0;
 }
 /** 
