@@ -1,7 +1,7 @@
 /** 
  *	斐波那契数列的下一个数
- *	0,1,1,2,3,5,8,13,21,34
- * 	F0=0，F1=1，Fn=F(n-1)+F(n-2)（n>=2，n∈N*）
+ *	1,1,2,3,5,8,13,21,34
+ * 	F1=1，F2=1，Fn=F(n-1)+F(n-2)（n>=3，n∈N*）
  * 	
  */
 
@@ -9,25 +9,27 @@
 int main(void)
 {
 	int n; // n表示第n项，n>=2
-	int f0, f1, fn;
-	f0 = 0;
+	int f1, f2, fn;
 	f1 = 1;
-	n = 8;
-	if (0 == n)
+	f2 = 1;
+	printf("%s", "请输入:n = ");
+	scanf("%d", &n);
+	// n = 8;
+	if (1 == n)
 	{
-		fn = 0;
+		fn = 1;
 	}
-	else if (1 == n)
+	else if (2 == n)
 	{
-		f1 = 1;
+		f2 = 1;
 	}
 	else
 	{
-		for (int i = 2; i <= n; ++i)
+		for (int i = 3; i <= n; ++i)
 		{
-			fn = f0 + f1;
-			f0 = f1;
-			f1 = fn;
+			fn = f2 + f1;
+			f1 = f2;
+			f2 = fn;
 		}
 	}
 	printf("fn = %d\n", fn);
