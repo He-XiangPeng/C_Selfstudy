@@ -6,6 +6,12 @@
  */
 #include <stdio.h>
 #include <string.h>
+struct Student
+{
+	int age;
+	char sex;
+	char name[100];
+};
 
 // void inputStudent(struct Student stu);
 void inputStudent(struct Student * pstu);
@@ -14,12 +20,7 @@ void inputStudent(struct Student * pstu);
 void outputStudent(struct Student * psss);
 
 
-struct Student
-{
-	int age;
-	char sex;
-	char name[100];
-};
+
 
 int main(void)
 {
