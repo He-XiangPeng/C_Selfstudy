@@ -1,5 +1,10 @@
-#include <stdio.h>
+/**
+ * 位运算符举列
+ *
+ * 
+ */
 
+#include <stdio.h>
 int main(void)
 {
 	int i = 5;
@@ -18,6 +23,6 @@ int main(void)
 	// k = i && j;
 	// printf("%d\n", k);// 1
 	k = i << 1;
-
+	
 	return 0;
 }
