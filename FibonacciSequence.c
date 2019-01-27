@@ -8,7 +8,7 @@
 #include <stdio.h>
 int main(void)
 {
-	int n; // n表示第n项，n>=2
+	int n; // n表示第n项，n>=3
 	int f1, f2, fn;
 	f1 = 1;
 	f2 = 1;
