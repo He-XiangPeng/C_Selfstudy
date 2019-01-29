@@ -4,7 +4,6 @@
  * 
  */
 #include <stdio.h>
-
 int main(void)
 {
 	for (int i = 0; i < 3; ++i)
@@ -20,8 +19,8 @@ int main(void)
 	{
 		for (int j = 0; j < 3; ++j)
 		{
-
-				break; // 在嵌套循环中break只能终止最近的循环	
+			printf("%s", "还好");
+			break; // 在嵌套循环中break只能终止最近的循环	
 		}
 
 		printf("Hello! ");
