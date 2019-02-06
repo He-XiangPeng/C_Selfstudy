@@ -12,7 +12,7 @@
  * @param  val 要判断的数
  * @return  是否是质数
  */
-bool isPrime(int val)
+_Bool isPrime(int val)
 {
 	int i;
 	for (i = 2; i < val; ++i)

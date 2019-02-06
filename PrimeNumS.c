@@ -10,7 +10,7 @@
  * @param  m [description]
  * @return   [description]
  */
-bool isPrime(int m)
+_Bool isPrime(int m) // _Bool c99新加
 {
 	int i;
 

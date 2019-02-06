@@ -30,10 +30,7 @@ int main(void)
 	int * q = &a[1];
 	int * s = &a[4];
 	printf("q和s所指向的单元相隔%ld个单元\n", s - q); 
-	// 两指针相减ld
-
-
-	
+	// 两指针相减ld	
 	return 0;
 }
 

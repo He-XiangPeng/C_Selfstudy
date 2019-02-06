@@ -1,10 +1,17 @@
 /** 
  *	两个数互换值，用指针实现
+ *	经典指针程序
  * 
  */
 #include <stdio.h>
 
+/**
+ * 不能互换两个数的值
+ * @param a 形参
+ * @param b 形参
+ */
 void exchange_1(int a, int b);
+
 void exchange_2(int * p, int * q);
 void exchange_3(int * p, int * q);
 
@@ -17,12 +24,14 @@ int main(void)
 	printf("1: a = %d, b = %d\n", a, b); // a = 3; b =5
 
 	exchange_2(&a, &b);
+	//错误的调用方法
 	//exchange_2(a , b);
 	//exchange_2(*p, *q);
 	printf("2: a = %d, b = %d\n", a, b);// a = 3; b = 5
 
 	exchange_3(&a, &b);
-	printf("3: a = %d, b = %d\n", a, b); // a = 3; b =5
+	printf("3: a = %d, b = %d\n", a, b); 
+	// 3: a = 5, b = 3
 
 	return 0;
 }
