@@ -6,7 +6,7 @@
  */
 #include <stdio.h>
 
-// 结构体最常用
+// 结构体最常用的定义方法
 struct Student
 {
 	int age;
