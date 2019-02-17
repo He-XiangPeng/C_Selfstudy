@@ -25,6 +25,7 @@ void outputStudent(struct Student * psss);
 int main(void)
 {
 	struct Student st;
+	printf("st所占的字节为%ld\n", sizeof(st));
 
 	inputStudent(&st); // 对结构体变量输出，必须发送st的地址
 	printf("%d %c %s\n", st.age, st.sex, st.name);
