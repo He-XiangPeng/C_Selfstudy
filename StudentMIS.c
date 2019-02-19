@@ -35,7 +35,7 @@ int main(void)
 	{
 		printf("请输入第%d个学生的信息：\n", i + 1);
 		printf("name = ");
-		scanf("%s", pArr[i].name);
+		scanf("%s", pArr[i].name); // name是字符数组，是数组首元素的地址
 
 		printf("age = ");
 		scanf("%d", &pArr[i].age); // 等价于(*p[i]).age或pArr.age
