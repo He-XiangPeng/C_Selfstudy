@@ -16,6 +16,6 @@ int main(void)
 	printf("sizeoflong):%lu byte\n", sizeof(long));
 	printf("sizeof(double):%lu byte\n", sizeof(double));
 	// printf("me16 = %"PRldN"\n", me16); // 该句无法编译通过
-
+	
 	return 0;
 }
