@@ -21,7 +21,7 @@ int main(void)
 	}
 	else if (2 == n)
 	{
-		f2 = 1;
+		fn = 1;
 	}
 	else
 	{
