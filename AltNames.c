@@ -1,7 +1,13 @@
 /** 
  *	可移植的整数类型名
  * 	C prime plus 例子
- * 	测试sizeof
+ * 	测试sizeof，输出：
+ * 	"short" = 4593
+ *  sizeof(bool):1 byte
+ *  sizeof(int):4 byte
+ *  sizeof(char):1 byte
+ *  sizeoflong):8 byte
+ *  sizeof(double):8 byte
  */
 #include <stdio.h>
 #include <inttypes.h> // 支持可移植类型
