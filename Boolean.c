@@ -1,24 +1,23 @@
 /**
- * 使用_Bool变量
- *
+ *  使用_Bool变量
+ * 	不需要包含头文件stdbool.h
  * 
  */
 #include <stdio.h>
-#include <stdbool.h>
 int main(void)
 {
 	long num;
 	long sum = 0L;
 	_Bool input_is_good;
 	printf("Please enter an integer to be summed.");
-	printf("(q to quit):\n");
+	printf("(q to quit): ");
 
 	input_is_good = (scanf("%ld", &num) == 1);
 
 	while(input_is_good) 
 	{
 	    sum = sum + num;
-	    printf("please enter next integer (q to quit):");
+	    printf("please enter next integer (q to quit): ");
 	    input_is_good = (scanf("%ld", &num) == 1);
 	}
 
