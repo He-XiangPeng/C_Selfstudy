@@ -14,11 +14,11 @@ int main(void)
 
 	input_is_good = (scanf("%ld", &num) == 1);
 
-	while(input_is_good) 
+	while (input_is_good)
 	{
-	    sum = sum + num;
-	    printf("please enter next integer (q to quit): ");
-	    input_is_good = (scanf("%ld", &num) == 1);
+		sum = sum + num;
+		printf("please enter next integer (q to quit): ");
+		input_is_good = (scanf("%ld", &num) == 1);
 	}
 
 	printf("Those integer sum to %ld.\n", sum);
