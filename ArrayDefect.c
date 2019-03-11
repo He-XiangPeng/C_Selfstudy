@@ -5,7 +5,7 @@
  */
 #include <stdio.h>
 
-void g(int * pArr, int len);
+void g(int *pArr, int len);
 void f(void);
 
 int main(int argc, char const *argv[])
@@ -25,7 +25,7 @@ void f(void)
 	printf("%d\n", a[2]);
 }
 
-void g(int * pArr, int len)
+void g(int *pArr, int len)
 {
 	pArr[2] = 88; // pArr[2] = a[2]
 }
