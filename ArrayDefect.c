@@ -11,7 +11,6 @@ void f(void);
 int main(int argc, char const *argv[])
 {
 	f();
-
 	return 0;
 }
 
