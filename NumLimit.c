@@ -1,10 +1,10 @@
-#include <stdio.h>
-#include <limits.h> // 整数限制
-#include <float.h> // 浮点数限制
 /** 
  *	使用limits.h和float.h中定义的常量
  * 
  */
+#include <stdio.h>
+#include <limits.h> // 整数限制
+#include <float.h> // 浮点数限制
 int main(void)
 {
 	printf("Some number limits for this system: \n");

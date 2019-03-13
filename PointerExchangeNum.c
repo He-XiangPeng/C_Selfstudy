@@ -11,7 +11,6 @@
  * @param b 形参
  */
 void exchange_1(int a, int b);
-
 void exchange_2(int * p, int * q);
 void exchange_3(int * p, int * q);
 

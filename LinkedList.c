@@ -14,7 +14,7 @@ struct Node
 
 //函数声明
 struct Node * create_list(void);
-void traverse_list(struct Node *);
+void traverse_list(struct Node * pHead);
 
 int main(void)
 {
