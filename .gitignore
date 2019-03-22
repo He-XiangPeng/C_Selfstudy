@@ -1,0 +1,5 @@
+# ignore this file
+*.out
+.vscode/
+*.log
+*.a
